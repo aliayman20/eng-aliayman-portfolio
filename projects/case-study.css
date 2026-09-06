@@ -1,0 +1,21 @@
+.case-hero{padding-top:160px;padding-bottom:48px}
+.case-hero h1{max-width:960px}
+.case-body{max-width:1008px;padding-bottom:80px}
+.case-section{margin-bottom:48px}
+.case-section p,.case-media figcaption{color:var(--muted);line-height:1.8}
+.case-section code{color:#dbeafe;overflow-wrap:anywhere}
+.case-flow{display:flex;flex-wrap:wrap;gap:12px 30px;padding:0;list-style:none;margin:24px 0}
+.case-flow li{position:relative;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;color:var(--text);font-weight:700}
+.case-flow li:not(:last-child)::after{content:"\2192";position:absolute;right:-24px;color:var(--accent)}
+.case-media{margin:24px 0 32px}
+.case-media img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:18px}
+.case-media figcaption{margin-top:12px}
+@media(max-width:991px){.case-hero{padding-top:130px}}
+@media(max-width:575px){.case-flow{flex-direction:column;gap:30px}.case-flow li:not(:last-child)::after{content:"\2193";right:auto;left:24px;bottom:-30px}}
+.case-hero-media{max-width:960px;margin-top:32px}
+.case-feature-list{color:var(--muted);line-height:1.8;padding-left:24px}
+.case-feature-list li+li{margin-top:10px}
+.case-study .section-label{max-width:100%;width:fit-content;white-space:normal}
+.case-study .case-hero h1,.case-study .project-links a{overflow-wrap:anywhere}
+.case-study .case-media a{display:block;border-radius:18px}
+.case-study .case-body{padding-left:24px;padding-right:24px}
